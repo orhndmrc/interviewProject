@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Amazon Tests">
+    <test name="VerifyAddToCart">
+        <parameter name="productName" value="pen" />
+        <parameter name="quantity" value="5" />
+        <classes>
+            <class name="org.amazon.AmazonCartTest" />
+        </classes>
+    </test>
+</suite>

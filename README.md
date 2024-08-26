@@ -1,13 +1,12 @@
 # Installations:
 - Download code editor - IntelliJ
 - Add JDK 21 - corretto-21 (Amazon Corretto 21.0.4)
-- Goto `pom.xml` and refresh maven to install the external libraries
+- Go to `pom.xml` and refresh maven to install the external libraries
 
 # Run test: 
-- Goto `testRunner.xml` 
+- Go to `testRunner.xml` 
 - Change the value of `productName` param to see that the code is dynamic for different products
 - Right click and run the `Run ...\src\test\testRunner.xml` command
-- You can use the user-friendly run buttons on IntelliJ
 - Page object model is implemented in the project
 
 ## Notes: 

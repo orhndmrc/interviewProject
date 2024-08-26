@@ -1,6 +1,6 @@
 # Installations:
 - Download code editor - IntelliJ
-- Add JDK 21 
+- Add JDK 21 - corretto-21 (Amazon Corretto 21.0.4)
 - Goto `pom.xml` and refresh maven to install the external libraries
 
 # Run test: 
